@@ -1,0 +1,20 @@
+{
+  "name": "inmay",
+  "version": "1.0.0",
+  "description": "五月产出",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --open --config ./config/webpack.dev.config.js",
+    "build": "webpack --config ./config/webpack.prod.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lynn-yuan/InMay.git"
+  },
+  "author": "lynn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lynn-yuan/InMay/issues"
+  },
+  "homepage": "https://github.com/lynn-yuan/InMay#readme"
+}
